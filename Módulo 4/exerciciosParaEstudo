@@ -1,0 +1,36 @@
+Lista de exercícios para fazer quando for estudar classes novamente:
+
+1. Escreva uma classe em Python que receba como arqumentos um id, um nome e a classe de um estudante, sendo que o nome e a classe não são obrigatórios no momento da instanciação da classe. Crie um método que imprima o id do aluno, e se houver nome, imprima o nome, e se houver classe, imprima a classe também.
+
+2. Utilizando a classe criada no exercício 1, imprima o tipo da classe, as chaves e valores do atributo __dict__.
+
+3. Criar uma classe Triangulo, que receba no seu construtor 3 medidas de ângulos. Criar um método check_angulo que valide as informações dos 3 ângulos informados na criação da classe.
+
+4. Criar uma classe Musica, que deverá receber como parâmetro de criação uma lista de string com as
+estrofes de uma música. Esta classe deverá conter um método chamado cante_para_mim que imprima todas
+as estrofes, uma em cada linha.
+
+5. Instanciar a classe Triangulo e imprimir os lados informados e imprimir se o triângulo é um triângulo ou não. O método check_angulo deverá retornar True se a soma dos valores for igual a 180 e False em qualquer outra possibilidade. Para executar, instancie a classe e execute o método.
+
+6. Criar uma classe chamada Ponto3D que herde de Object. Na classe Ponto3D, crie um construtor que receba 3 numeros, e armezene-os em 3 variáveis. Crie uma forma para que ao exibir o conteúdo da instancia, a informação apresenta seja: (<num1>, <num2>, <num3>)
+Uso:
+ponto = Ponto3D(1, 2, 3)
+Print(ponto) => (1, 2, 3)
+
+7. Criar uma classe que representará uma aeronave militar com o nome JatoMilitar1Lugar. O método construtor deverá receber duas informações iniciais: o modelo e a base onde a aeronave está. Crie um método chamado designar_piloto, que deverá receber o nome do piloto como parâmetro.
+
+8. Criar um método rebasear_aeronave, que deverá receber de parâmetro o nome da base para onde a aeronave deverá ser enviada. Antes de registrar, é necessário validar se o piloto foi designado para a aeronave, e somente se houver piloto, registrar a informação de rebaseamento, a data e hora que a movimentação foi realizada, deverá ser registrada também. Sobrescreva o métod __str__ da classe, para imprimir o seguinte conteúdo:
+Jato: <NOME DA AERONAVE>
+Base inicial: <NOME DA BASE DE ORIGEM>
+Piloto: <NOME DO PILOTO DESIGNADO>
+Histórico de transferências: <LISTAGEM DAS BASES PELAS QUAIS A
+AERONAVE PASSOU MOSTRANDO A DATA / HORA E BASE>
+
+9. Criar uma classe que representará outro tipo de aeronave militar, com o nome JatoMilitar2Lugares. O método construtor deverá receber duas informações: o modelo, e a base onde a aeronave está. Cria um método chamado designar_piloto que deverá contar o nome do piloto. Por regra, o primeiro piloto será considerado o piloto principal e o segundo, o seu copiloto. Depois de informados os dois nomes, não poderá ser inserido mais nenhum nome.
+
+10. Criar um método rebasear_aeronave, que receberá como parâmetro o nome da base para onde a aeronave deverá ser enviada. Antes de registrar, é necessário validar se dois pilotos foram designados para a aeronave, e somente se ambos tiverem sido designados, registrar o rebaseamento, com a data e hora da movimentação. Sobrescreva o métod __str__ da classe, para imprimir o seguinte conteúdo:
+Jato: <NOME DA AERONAVE>
+Base inicial: <NOME DA BASE DE ORIGEM>
+Piloto: <NOME DOS PILOTOS DESIGNADOS>
+Histórico de transferências: <LISTAGEM DAS BASES PELAS QUAIS A
+AERONAVE PASSOU MOSTRANDO A DATA / HORA E BASE>
