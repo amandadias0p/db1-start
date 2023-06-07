@@ -39,7 +39,7 @@ while resp == "s":
     try:
         numeroLista = int(numeroLista)
         lista.append(numeroLista)
-    except:
+    except: #se der erro...
         print("O valor digitado não é valído. Tente com números inteiros.")
         continue
 
